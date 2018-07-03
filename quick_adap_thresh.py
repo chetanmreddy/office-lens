@@ -39,7 +39,7 @@ def initialize(x_data, pix_vec):
 
 
 def main():
-	img = cv2.imread('/home/chetan/adap_thresh/cropped_dataset/28.jpg',0); # here 0 says to read image in gray scale
+	img = cv2.imread('/home/chetan/adap_thresh/aproject/cropped_dataset/28.jpg',0); # here 0 says to read image in gray scale
 
 	x_data = np.array(img);
 
